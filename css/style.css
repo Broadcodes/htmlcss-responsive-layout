@@ -11,13 +11,10 @@ body {
 /* AREA DEBUG */
 
 
-/* .debug .areaContainer{
-    height: 500px;
-} */
 
-/* .debug .card{
-    height: 350px;
-} */
+
+
+
 
 
 /* GENERICS CLASSES */
@@ -26,7 +23,7 @@ body {
 }
 
 .margin-horizontal{
-    margin: 0 30px;
+    margin: 0 40px;
 }
 
 .justify-between{
@@ -42,12 +39,20 @@ body {
     background-color: #b5ddff;
 }
 
+.bg-blue{
+    background-color: #0884fd;
+}
+
 .color-blue{
     color: #0888fd;
 }
 
 .color-gray{
     color: #6c6c6c;
+}
+
+.color-white{
+    color: #fff;
 }
 
 .text-center{
@@ -66,7 +71,7 @@ header{
 }
 
 .nav-bar{
-    padding: 18px 0;
+    padding: 20px 0;
 }
 
 .nav-bar i{
@@ -88,6 +93,40 @@ header{
     width: 100%;
     border-radius: 20px;
     margin: 25px 0;
-    padding: 35px;
+    padding: 35px 35px 0;
 }
 
+.card h3{
+    font-size: 1.8rem;
+}
+
+.card p{
+    padding: 40px 0;
+    line-height: 1.9rem;
+    font-weight: 700;
+}
+
+.card>i{
+    font-size: 5rem;
+    padding-bottom: 20px;
+}
+
+button{
+    border-radius: 25px;
+    padding: 15px 65px;
+    border: none;
+    margin: 20px 0;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+
+button i{
+    padding-right: 10px;
+}
+
+.card img{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    bottom: -5px;
+}
