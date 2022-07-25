@@ -42,6 +42,10 @@ body {
     margin-top: 20px;
 }
 
+.margin-bottom{
+    margin-bottom: 50px;
+}
+
 .border-radius20{
     border-radius: 20px;
 }
@@ -239,4 +243,12 @@ div[class="card border-radius65 bg-violet text-center"] h3{
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+}
+
+#titleFourthSect{
+    padding: 40px 0;
+}
+
+div[class="card border-radius20 bg-white text-left"] h2{
+    font-size: 3rem;
 }
