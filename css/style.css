@@ -115,6 +115,10 @@ header {
     color: #fff;
 }
 
+.manu{
+    display: none;
+}
+
 /* MAIN */
 .areaContainer:nth-of-type(even) {
     background-color: #9792e4;
@@ -162,6 +166,7 @@ button {
     margin: 20px 0;
     font-weight: 700;
     letter-spacing: 0.2rem;
+    cursor: pointer;
 }
 
 button i {
@@ -441,4 +446,172 @@ i[class="fa-solid fa-circle"] {
 }
 
 /* VERSION DESKTOP */
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+    .hamburger-icon{
+        display: none;
+    }
+
+    .nav-bar {
+        padding: 7px 0;
+    }
+
+    .manu{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+    }
+    
+    .manu li{
+        padding: 0 25px;
+    }
+
+    .manu li a{
+        text-decoration: none;
+    }
+  
+    .manu li a,
+    .manu li button{
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    .manu li a:hover{
+        text-decoration: underline;
+    }
+
+    .manu li button {
+        padding: 15px 35px;
+        background-color: #fff;
+        letter-spacing: 0rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .margin-horizontal {
+        margin: 0 25px;
+    }
+
+    .direction {
+        flex-direction: row;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    #firstCardFirstSection {
+        flex-basis: calc((100% / 3) * 2 - 30px);
+    }
+
+    .cardDimensionFirstSection {
+        flex-basis: calc(100% / 3 - 25px);
+        margin: 0px 10px 20px;
+        padding: 30px 25px 0;
+    }
+
+    .cardDimensionFirstSection .imageCard {
+        width: 65%;
+    }
+
+    .areaContainer p,
+    .cardDimensionFirstSection p {
+        padding: 15px 0;
+        line-height: 1.5rem;
+    }
+
+    #img-secondSection {
+        width: 90%;
+        padding: 50px 0 80px;
+    }
+
+    .areaContainer h2 {
+        font-size: 3rem;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+ 
+    .areaContainer p {
+        text-align: left;
+        padding-bottom: 40px;
+    }
+
+    #text-whiteCard {
+        text-align: center;
+    }
+
+    .areaContainer h2[class="color-violet"]{
+        text-align: center;
+        padding-bottom: 0px;
+    }
+
+    #text-descriptionThirdSection {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .areaTestimonial {
+        left: 0%;
+        margin-right: 20px;
+    }
+
+    .areaTestimonialDescription{
+        flex-basis: 70%;
+    }
+   
+    .areaTestimonialDescription h3{
+        text-align: left;
+    }
+   
+    .areaTestimonialDescription p{
+        line-height: 2.5rem;
+    }
+
+    .cardDimensionFourthSection{
+        flex-basis: calc(100% / 2 - 25px);
+        margin: 0px 10px 20px;
+        padding: 30px 25px 0;
+    }
+
+    .areaFifthSectionTextDescription{
+        flex-basis: 55%;
+        padding: 30px;
+    }
+
+    #aboutUs{
+        text-align: left;
+    }
+
+    .areaFifthSectionImage{
+        flex-basis: 45%;
+        padding: 30px;
+    }
+
+    .areaFifthSectionImage i[class*="fa-quote-left"]{
+        font-size: 4rem;
+    }
+
+    .areaFifthSectionImage h3{
+        font-size: 2rem;
+    }
+
+    .areaContainer div .title{
+        font-size: 5.5rem;
+    }
+
+    .areaContainer div .title,
+    .areaContainer div .description{
+        text-align: center;
+    }
+}
