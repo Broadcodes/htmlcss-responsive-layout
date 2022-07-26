@@ -209,24 +209,23 @@ button i {
     border-radius: 50px;
 }
 
-div[class="card border-radius65 bg-violet text-center"] p,
+.areaTestimonialDescription p,
 #text-descriptionThirdSection {
     line-height: 2.5rem;
     font-weight: 400;
     font-size: 1.4rem;
     padding: 30px 0;
-
 }
 
-div[class="card border-radius65 bg-violet text-center"] h3 {
+.areaTestimonialDescription h3 {
     line-height: 2.5rem;
     font-weight: 600;
     font-size: 1.4rem;
     padding: 0px 0px 30px;
 }
 
-div[class="card border-radius65 bg-violet text-center"] p,
-div[class="card border-radius65 bg-violet text-center"] h3 {
+.areaTestimonialDescription p,
+.areaTestimonialDescription h3 {
     color: #fff;
 }
 
@@ -249,7 +248,7 @@ div[class="card border-radius65 bg-violet text-center"] h3 {
     padding: 40px 0;
 }
 
-div[class="card border-radius20 bg-white text-left"] h2,
+div[class*="card border-radius20 bg-white text-left"] h2,
 .areaFifthSection h2 {
     font-size: 3rem;
 }
@@ -370,6 +369,33 @@ i[class="fa-solid fa-circle"] {
     #text-whiteCard {
         text-align: center;
     }
+
+    .areaContainer h2[class="color-violet"]{
+        padding-bottom: 0px;
+    }
+
+    #text-descriptionThirdSection {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .areaTestimonial {
+        left: 0%;
+        margin-right: 20px;
+    }
+
+    .areaTestimonialDescription{
+        flex-basis: 70%;
+    }
+   
+    .areaTestimonialDescription h3{
+        text-align: left;
+    }
+   
+    .areaTestimonialDescription p{
+        line-height: 2.5rem;
+    }
+
 }
 
 /* VERSION DESKTOP */
