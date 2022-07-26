@@ -350,6 +350,10 @@ i[class="fa-solid fa-circle"] {
         padding: 30px 25px 0;
     }
 
+    .areaDxSecondSection{
+        flex-basis: 100%;
+    }
+
     .cardDimensionFirstSection .imageCard {
         width: 65%;
     }
@@ -494,7 +498,7 @@ i[class="fa-solid fa-circle"] {
         margin: 0 auto;
     }
 
-    #firstCardFirstSection{
+    #firstCardFirstSection {
         flex-basis: calc((100% / 3) * 2 - 30px);
         position: relative;
     }
@@ -507,14 +511,22 @@ i[class="fa-solid fa-circle"] {
         flex-basis: 45%;
     }
 
-    #firstCardFirstSection .bottomContainerFirstSection img{
+    #firstCardFirstSection .bottomContainerFirstSection img {
         width: 40%;
         position: absolute;
         bottom: 0;
         right: 20px;
     }
 
+    .areaCardSecondSection{
+        align-items: baseline;
+    }
 
+    .areaSxSecondSection,
+    .areaDxSecondSection {
+        flex-basis: calc(50% - 10px);
+        padding: 40px;
+    }
 
 
 
