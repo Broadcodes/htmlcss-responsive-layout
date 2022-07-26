@@ -29,6 +29,10 @@ body {
     justify-content: space-between;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .items-center {
     align-items: center;
 }
@@ -125,13 +129,15 @@ header {
     flex-grow: 1;
 }
 
-.card {
+.cardDimensionFirstSection,
+.cardDimensionFourthSection {
     flex-basis: 100%;
     margin: 25px 0;
     padding: 35px 35px 0;
 }
 
-.card h3 {
+.cardDimensionFirstSection h3,
+.cardDimensionFourthSection h3{
     font-size: 1.8rem;
     padding: 20px 0;
 }
@@ -141,12 +147,14 @@ header {
 }
 
 .areaContainer p,
-.card p {
+.cardDimensionFirstSection p,
+.cardDimensionFourthSection p {
     padding: 20px 0;
     line-height: 1.9rem;
 }
 
-.card>i {
+.cardDimensionFirstSection>i,
+.cardDimensionFourthSection>i {
     font-size: 5rem;
     padding-bottom: 20px;
 }
@@ -164,7 +172,8 @@ button i {
     padding-right: 10px;
 }
 
-.card .imageCard {
+.cardDimensionFirstSection .imageCard,
+.cardDimensionFourthSection .imageCard {
     width: 100%;
     position: relative;
     bottom: -5px;
@@ -248,7 +257,7 @@ button i {
     padding: 40px 0;
 }
 
-div[class*="card border-radius20 bg-white text-left"] h2,
+div[class*="border-radius20 bg-white text-left"] h2,
 .areaFifthSection h2 {
     font-size: 3rem;
 }
@@ -334,18 +343,18 @@ i[class="fa-solid fa-circle"] {
         flex-basis: 50%;
     }
 
-    .card {
+    .cardDimensionFirstSection {
         flex-basis: calc(100% / 3 - 25px);
         margin: 0px 10px 20px;
         padding: 30px 25px 0;
     }
 
-    .card .imageCard {
+    .cardDimensionFirstSection .imageCard {
         width: 65%;
     }
 
     .areaContainer p,
-    .card p {
+    .cardDimensionFirstSection p {
         padding: 15px 0;
         line-height: 1.5rem;
     }
@@ -396,6 +405,11 @@ i[class="fa-solid fa-circle"] {
         line-height: 2.5rem;
     }
 
+    .cardDimensionFourthSection{
+        flex-basis: calc(100% / 2 - 25px);
+        margin: 0px 10px 20px;
+        padding: 30px 25px 0;
+    }
 }
 
 /* VERSION DESKTOP */
