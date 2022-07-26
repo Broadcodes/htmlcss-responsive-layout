@@ -429,6 +429,15 @@ i[class="fa-solid fa-circle"] {
     .areaFifthSectionImage h3{
         font-size: 2rem;
     }
+
+    .areaContainer div .title{
+        font-size: 5.5rem;
+    }
+
+    .areaContainer div .title,
+    .areaContainer div .description{
+        text-align: center;
+    }
 }
 
 /* VERSION DESKTOP */
