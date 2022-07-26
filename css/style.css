@@ -9,140 +9,149 @@ body {
 }
 
 /* GENERICS CLASSES */
-.flex{
+.flex {
     display: flex;
 }
 
-.direction-column{
+.direction {
     flex-direction: column;
 }
 
-.margin-horizontal{
+.wrap {
+    flex-wrap: nowrap;
+}
+
+.margin-horizontal {
     margin: 0 40px;
 }
 
-.justify-between{
+.justify-between {
     justify-content: space-between;
 }
 
-.items-center{
+.items-center {
     align-items: center;
 }
 
-.margin-top{
+.margin-top {
     margin-top: 20px;
 }
 
-.margin-bottom{
+.margin-bottom {
     margin-bottom: 50px;
 }
 
-.border-radius20{
+.border-radius20 {
     border-radius: 20px;
 }
 
-.border-radius65{
+.border-radius65 {
     border-radius: 65px;
 }
 
 /* color section */
-.bg-lightBlue{
+.bg-lightBlue {
     background-color: #b5ddff;
 }
 
-.bg-blue{
+.bg-blue {
     background-color: #0884fd;
 }
 
-.bg-violet{
+.bg-violet {
     background-color: #9792e4;
 }
 
-.bg-white{
+.bg-white {
     background-color: #fff;
 }
 
-.bg-dark{
+.bg-dark {
     background-color: #333;
 }
 
-.color-blue{
+.color-blue {
     color: #0888fd;
 }
 
-.color-gray{
+.color-gray {
     color: #6c6c6c;
 }
 
-.color-white{
+.color-white {
     color: #fff;
 }
 
-.color-violet{
+.color-violet {
     color: #9792e4;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.text-left{
+.text-left {
     text-align: left;
 }
+
 /* VERSION MOBILE */
 
 /* HEADER: Top header bar */
-header{
+header {
     width: 100%;
     background-color: #0084fd;
 }
 
-.nav-bar{
+.nav-bar {
     padding: 20px 0;
 }
 
-.nav-bar i{
+.nav-bar i {
     font-size: 1.7rem;
     color: #fff;
 }
 
 /* MAIN */
-.areaContainer:nth-of-type(even){
+.areaContainer:nth-of-type(even) {
     background-color: #9792e4;
 }
 
-.areaContainer{
+.areaContainer {
     width: 100%;
     padding: 30px 0 70px;
 }
 
-.card{
-    width: 100%;
+#firstCardFirstSection {
+    flex-grow: 1;
+}
+
+.card {
+    flex-basis: 100%;
     margin: 25px 0;
     padding: 35px 35px 0;
 }
 
-.card h3{
+.card h3 {
     font-size: 1.8rem;
     padding: 20px 0;
 }
 
-.areaContainer div[class*="bg-lightBlue"] p{
+.areaContainer div[class*="bg-lightBlue"] p {
     font-weight: 700;
 }
 
 .areaContainer p,
-.card p{
+.card p {
     padding: 20px 0;
     line-height: 1.9rem;
 }
 
-.card>i{
+.card>i {
     font-size: 5rem;
     padding-bottom: 20px;
 }
 
-button{
+button {
     border-radius: 25px;
     padding: 15px 65px;
     border: none;
@@ -151,36 +160,36 @@ button{
     letter-spacing: 0.2rem;
 }
 
-button i{
+button i {
     padding-right: 10px;
 }
 
-.card .imageCard{
+.card .imageCard {
     width: 100%;
     position: relative;
     bottom: -5px;
 }
 
-#img-secondSection{
+#img-secondSection {
     width: 100%;
     padding: 50px 0 80px;
 }
 
-.areaContainer h2{
+.areaContainer h2 {
     font-size: 2rem;
 }
 
-.areaContainer h4{
+.areaContainer h4 {
     font-size: 1.2rem;
     font-weight: 400;
     padding: 20px 0;
 }
 
-.areaContainer p{
+.areaContainer p {
     font-weight: 400;
 }
 
-#text-whiteCard{
+#text-whiteCard {
     padding: 0px;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1.3rem;
@@ -189,7 +198,7 @@ button i{
     font-style: italic;
 }
 
-#icon-whiteCard{
+#icon-whiteCard {
     width: 70px;
     height: 70px;
     line-height: 70px;
@@ -201,15 +210,15 @@ button i{
 }
 
 div[class="card border-radius65 bg-violet text-center"] p,
-#text-descriptionThirdSection{
+#text-descriptionThirdSection {
     line-height: 2.5rem;
     font-weight: 400;
     font-size: 1.4rem;
     padding: 30px 0;
-    
+
 }
 
-div[class="card border-radius65 bg-violet text-center"] h3{
+div[class="card border-radius65 bg-violet text-center"] h3 {
     line-height: 2.5rem;
     font-weight: 600;
     font-size: 1.4rem;
@@ -217,11 +226,11 @@ div[class="card border-radius65 bg-violet text-center"] h3{
 }
 
 div[class="card border-radius65 bg-violet text-center"] p,
-div[class="card border-radius65 bg-violet text-center"] h3{
+div[class="card border-radius65 bg-violet text-center"] h3 {
     color: #fff;
 }
 
-.areaTestimonial{
+.areaTestimonial {
     align-items: center;
     width: 200px;
     height: 200px;
@@ -229,47 +238,47 @@ div[class="card border-radius65 bg-violet text-center"] h3{
     left: calc(50% - 100px);
 }
 
-.testimonial{
+.testimonial {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
 }
 
-#titleFourthSect{
+#titleFourthSect {
     padding: 40px 0;
 }
 
 div[class="card border-radius20 bg-white text-left"] h2,
-.areaFifthSection h2{
+.areaFifthSection h2 {
     font-size: 3rem;
 }
 
 .areaFifthSection h3,
-.areaSixthSection h3{
+.areaSixthSection h3 {
     font-size: 2.5rem;
 }
 
-.areaAboutUs{
+.areaAboutUs {
     position: relative;
     width: 200px;
     height: 200px;
 }
 
-.aboutUs{
+.aboutUs {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
 }
 
-.areaAboutUs i{
+.areaAboutUs i {
     position: absolute;
     font-size: 5rem;
     left: 150px;
 }
 
-.areaFifthSection button{
+.areaFifthSection button {
     border-radius: 25px;
     padding: 12px 20px;
     border: none;
@@ -278,32 +287,70 @@ div[class="card border-radius20 bg-white text-left"] h2,
     letter-spacing: 0rem;
 }
 
-.areaSixthSection h4{
+.areaSixthSection h4 {
     color: rgba(255, 255, 255, 0.762);
 }
 
-i[class="fa-solid fa-circle"]{
+i[class="fa-solid fa-circle"] {
     font-size: 0.3rem;
     vertical-align: middle;
 }
 
-.areaSixthSection h2{
+.areaSixthSection h2 {
     padding: 20px 0;
     font-size: 4.5rem;
     color: #fdc15f;
 }
 
 .areaSixthSection button,
-.areaSixthSection p{
+.areaSixthSection p {
     font-size: 1.2rem;
 }
 
-.areaSixthSection button{
+.areaSixthSection button {
     font-weight: 600;
     padding: 25px 100px;
     border-radius: 50px;
 }
 
-#text-footer p{
+#text-footer p {
     padding: 0;
 }
+
+/* VERSION TABLET */
+@media screen and (min-width: 768px) {
+    .margin-horizontal {
+        margin: 0 25px;
+    }
+
+    .direction {
+        flex-direction: row;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    #firstCardFirstSection {
+        flex-basis: 50%;
+    }
+
+    .card {
+        flex-basis: calc(100% / 3 - 25px);
+        margin: 0px 10px 20px;
+        padding: 30px 25px 0;
+    }
+
+    .card .imageCard {
+        width: 65%;
+    }
+
+    .areaContainer p,
+    .card p {
+        padding: 15px 0;
+        line-height: 1.5rem;
+    }
+}
+
+/* VERSION DESKTOP */
+@media screen and (min-width: 1024px) {}
