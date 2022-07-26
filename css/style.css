@@ -115,6 +115,10 @@ header {
     color: #fff;
 }
 
+.manu {
+    display: none;
+}
+
 /* MAIN */
 .areaContainer:nth-of-type(even) {
     background-color: #9792e4;
@@ -133,7 +137,7 @@ header {
 }
 
 .cardDimensionFirstSection h3,
-.cardDimensionFourthSection h3{
+.cardDimensionFourthSection h3 {
     font-size: 1.8rem;
     padding: 20px 0;
 }
@@ -162,6 +166,7 @@ button {
     margin: 20px 0;
     font-weight: 700;
     letter-spacing: 0.2rem;
+    cursor: pointer;
 }
 
 button i {
@@ -365,7 +370,7 @@ i[class="fa-solid fa-circle"] {
         text-align: left;
         padding-bottom: 50px;
     }
- 
+
     .areaContainer p {
         text-align: left;
         padding-bottom: 40px;
@@ -375,7 +380,7 @@ i[class="fa-solid fa-circle"] {
         text-align: center;
     }
 
-    .areaContainer h2[class="color-violet"]{
+    .areaContainer h2[class="color-violet"] {
         text-align: center;
         padding-bottom: 0px;
     }
@@ -390,55 +395,134 @@ i[class="fa-solid fa-circle"] {
         margin-right: 20px;
     }
 
-    .areaTestimonialDescription{
+    .areaTestimonialDescription {
         flex-basis: 70%;
     }
-   
-    .areaTestimonialDescription h3{
+
+    .areaTestimonialDescription h3 {
         text-align: left;
     }
-   
-    .areaTestimonialDescription p{
+
+    .areaTestimonialDescription p {
         line-height: 2.5rem;
     }
 
-    .cardDimensionFourthSection{
+    .cardDimensionFourthSection {
         flex-basis: calc(100% / 2 - 25px);
         margin: 0px 10px 20px;
         padding: 30px 25px 0;
     }
 
-    .areaFifthSectionTextDescription{
+    .areaFifthSectionTextDescription {
         flex-basis: 55%;
         padding: 30px;
     }
 
-    #aboutUs{
+    #aboutUs {
         text-align: left;
     }
 
-    .areaFifthSectionImage{
+    .areaFifthSectionImage {
         flex-basis: 45%;
         padding: 30px;
     }
 
-    .areaFifthSectionImage i[class*="fa-quote-left"]{
+    .areaFifthSectionImage i[class*="fa-quote-left"] {
         font-size: 4rem;
     }
 
-    .areaFifthSectionImage h3{
+    .areaFifthSectionImage h3 {
         font-size: 2rem;
     }
 
-    .areaContainer div .title{
+    .areaContainer div .title {
         font-size: 5.5rem;
     }
 
     .areaContainer div .title,
-    .areaContainer div .description{
+    .areaContainer div .description {
         text-align: center;
     }
 }
 
 /* VERSION DESKTOP */
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+    header img {
+        padding-left: 30px;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+
+    .nav-bar {
+        padding: 7px 0;
+    }
+
+    .manu {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+    }
+
+    .manu li {
+        padding: 0 25px;
+    }
+
+    .manu li a {
+        text-decoration: none;
+    }
+
+    .manu li a,
+    .manu li button {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    .manu li a:hover {
+        text-decoration: underline;
+    }
+
+    .manu li button {
+        padding: 15px 35px;
+        background-color: #fff;
+        letter-spacing: 0rem;
+    }
+
+    .margin-horizontal {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #firstCardFirstSection{
+        flex-basis: calc((100% / 3) * 2 - 30px);
+        position: relative;
+    }
+
+    #firstCardFirstSection .topContainerFirstSection {
+        flex-basis: 55%;
+    }
+
+    #firstCardFirstSection .bottomContainerFirstSection {
+        flex-basis: 45%;
+    }
+
+    #firstCardFirstSection .bottomContainerFirstSection img{
+        width: 40%;
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
