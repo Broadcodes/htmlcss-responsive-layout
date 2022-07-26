@@ -8,18 +8,6 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
-/* AREA DEBUG */
-
-.debug footer{
-    height: 350px;
-    background-color: #222;
-}
-
-
-
-
-
-
 /* GENERICS CLASSES */
 .flex{
     display: flex;
@@ -72,6 +60,10 @@ body {
 
 .bg-white{
     background-color: #fff;
+}
+
+.bg-dark{
+    background-color: #333;
 }
 
 .color-blue{
@@ -253,7 +245,8 @@ div[class="card border-radius20 bg-white text-left"] h2,
     font-size: 3rem;
 }
 
-.areaFifthSection h3{
+.areaFifthSection h3,
+.areaSixthSection h3{
     font-size: 2.5rem;
 }
 
@@ -283,4 +276,34 @@ div[class="card border-radius20 bg-white text-left"] h2,
     margin: 20px 0;
     font-weight: 400;
     letter-spacing: 0rem;
+}
+
+.areaSixthSection h4{
+    color: rgba(255, 255, 255, 0.762);
+}
+
+i[class="fa-solid fa-circle"]{
+    font-size: 0.3rem;
+    vertical-align: middle;
+}
+
+.areaSixthSection h2{
+    padding: 20px 0;
+    font-size: 4.5rem;
+    color: #fdc15f;
+}
+
+.areaSixthSection button,
+.areaSixthSection p{
+    font-size: 1.2rem;
+}
+
+.areaSixthSection button{
+    font-weight: 600;
+    padding: 25px 100px;
+    border-radius: 50px;
+}
+
+#text-footer p{
+    padding: 0;
 }
