@@ -350,6 +350,26 @@ i[class="fa-solid fa-circle"] {
         padding: 15px 0;
         line-height: 1.5rem;
     }
+
+    #img-secondSection {
+        width: 90%;
+        padding: 50px 0 80px;
+    }
+
+    .areaContainer h2 {
+        font-size: 3rem;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+ 
+    .areaContainer p {
+        text-align: left;
+        padding-bottom: 40px;
+    }
+
+    #text-whiteCard {
+        text-align: center;
+    }
 }
 
 /* VERSION DESKTOP */
