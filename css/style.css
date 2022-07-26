@@ -125,10 +125,6 @@ header {
     padding: 30px 0 70px;
 }
 
-#firstCardFirstSection {
-    flex-grow: 1;
-}
-
 .cardDimensionFirstSection,
 .cardDimensionFourthSection {
     flex-basis: 100%;
@@ -340,7 +336,7 @@ i[class="fa-solid fa-circle"] {
     }
 
     #firstCardFirstSection {
-        flex-basis: 50%;
+        flex-basis: calc((100% / 3) * 2 - 30px);
     }
 
     .cardDimensionFirstSection {
@@ -380,6 +376,7 @@ i[class="fa-solid fa-circle"] {
     }
 
     .areaContainer h2[class="color-violet"]{
+        text-align: center;
         padding-bottom: 0px;
     }
 
@@ -409,6 +406,28 @@ i[class="fa-solid fa-circle"] {
         flex-basis: calc(100% / 2 - 25px);
         margin: 0px 10px 20px;
         padding: 30px 25px 0;
+    }
+
+    .areaFifthSectionTextDescription{
+        flex-basis: 55%;
+        padding: 30px;
+    }
+
+    #aboutUs{
+        text-align: left;
+    }
+
+    .areaFifthSectionImage{
+        flex-basis: 45%;
+        padding: 30px;
+    }
+
+    .areaFifthSectionImage i[class*="fa-quote-left"]{
+        font-size: 4rem;
+    }
+
+    .areaFifthSectionImage h3{
+        font-size: 2rem;
     }
 }
 
