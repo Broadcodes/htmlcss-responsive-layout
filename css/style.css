@@ -102,6 +102,9 @@ body {
 
 /* HEADER: Top header bar */
 header {
+    position: fixed;
+    z-index: 20;
+    height: 100px;
     width: 100%;
     background-color: #0084fd;
 }
@@ -120,6 +123,10 @@ header {
 }
 
 /* MAIN */
+
+main{
+    padding-top: 100px;
+}
 .areaContainer:nth-of-type(even) {
     background-color: #9792e4;
 }
